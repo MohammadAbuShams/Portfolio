@@ -335,6 +335,29 @@ dl.skills { grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr
   .contact .links a { max-width: 100%; overflow-wrap: anywhere; }
 }
 
+
+/* Final mobile overflow containment: keep every section inside the viewport. */
+html, body { width: 100%; max-width: 100%; overflow-x: clip; }
+.wrap { width: 100%; max-width: 1680px; min-width: 0; }
+.wrap > main, .wrap > aside, main > section { min-width: 0; max-width: 100%; }
+.hero, .marq { min-width: 0; max-width: 100%; }
+.marq { width: 100%; overflow: hidden; }
+.mt { flex-shrink: 0; }
+.pgrid, dl.skills, .certs, .language-grid, .education-timeline { min-width: 0; max-width: 100%; }
+.proj, dl.skills > div, .cert, .education-card, .language-card, .tl .box { min-width: 0; max-width: 100%; }
+@media (max-width: 1100px) {
+ .wrap { display: grid; grid-template-columns: minmax(0,1fr); width: 100%; }
+ .wrap > main, .wrap > aside { width: 100%; min-width: 0; }
+}
+@media (max-width: 600px) {
+ .wrap { padding-left: 16px; padding-right: 16px; }
+ dl.skills { grid-template-columns: minmax(0,1fr); }
+ .pgrid, .certs, .language-grid { grid-template-columns: minmax(0,1fr); }
+ .open { max-width: 100%; white-space: normal; }
+ .contact .box { min-width: 0; max-width: 100%; }
+ .contact .links a { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
+}
+
 </style>
 </head>
 <body>
