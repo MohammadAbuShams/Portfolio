@@ -8,7 +8,7 @@ My experience spans web development, database management, artificial intelligenc
 
 ## 🌐 Live Portfolio
 
-**[Visit My Portfolio](https://mohammadabushams.github.io/)**
+**[Visit My Portfolio](https://mohammadabushams.github.io/Portfolio/)**
 
 ## 🚀 About This Website
 
