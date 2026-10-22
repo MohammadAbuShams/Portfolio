@@ -43,7 +43,7 @@ This portfolio showcases my professional and academic background, including:
 ## 📬 Connect With Me
 
 - **GitHub:** [MohammadAbuShams](https://github.com/MohammadAbuShams)
-- **LinkedIn:** [Mohammad Abu Shams](https://www.linkedin.com/in/MohammadN.AbuShams)
+- **LinkedIn:** [Mohammad Abu Shams](https://www.linkedin.com/in/mohammad-n-abu-shams-979044269/?isSelfProfile=true)
 - **Email:** shamsmohammad966@gmail.com
 
 ---
